@@ -23,15 +23,36 @@
   {
     "CallDate": "2023-10-11T23:53:11.3926671+03:00",
     "Duration": 180,
-    "IsIncoming": true,
+    "IsIncoming": false,
     "ClientId": "869559",
     "Cost": 0.3
   },
   {
-    "CallDate": "2023-07-01T00:00:00",
-    "Duration": 6,
+    "CallDate": "2023-10-02T00:00:00",
+    "Duration": 455,
     "IsIncoming": false,
-    "ClientId": "396434",
-    "Cost": 0.01
+    "ClientId": "893630",
+    "Cost": 0.758333333333333
+  },
+  {
+    "CallDate": "2023-11-06T00:00:00",
+    "Duration": 111,
+    "IsIncoming": false,
+    "ClientId": "893630",
+    "Cost": 0.185
+  },
+  {
+    "CallDate": "2023-10-04T00:00:00",
+    "Duration": 65,
+    "IsIncoming": true,
+    "ClientId": "961907",
+    "Cost": 0.0
+  },
+  {
+    "CallDate": "2023-11-09T00:00:00",
+    "Duration": 145,
+    "IsIncoming": false,
+    "ClientId": "893630",
+    "Cost": 0.241666666666667
   }
 ]

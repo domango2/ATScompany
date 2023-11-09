@@ -161,14 +161,14 @@ namespace ATScompanySpace
 
         public override string ToString()
         {
-            return $"Клиент: {Name}, \nТелефон: {PhoneNumber}, \nАдрес: {Address}, \nЗадолженность: {Debt}";
+            return $"Клиент: {Name}, \nТелефон: {PhoneNumber}, \nАдрес: {Address}, \nЗадолженность: {Debt:C}";
         }
 
         public void MakeCall(DateTime callDate, int duration, bool isIncoming, string clientId)
         {
             Call call = new Call(callDate, duration, isIncoming, clientId);
 
-            CallHistory.Add(call);
+            this.CallHistory.Add(call);
             ATScompany.Instance.AddCall(call);
         }
 
@@ -180,6 +180,7 @@ namespace ATScompanySpace
             clientInfo += $"Дата рождения: {BirthDate.ToShortDateString()}\n";
             clientInfo += $"Номер телефона: {PhoneNumber}\n";
             clientInfo += $"Текущая задолженность: {Debt:C}\n";
+            clientInfo += $"Пеня: {Invoice.CalculateLateFee(Invoices):C}";
 
             if (Overpayment > 0)
             {
@@ -196,7 +197,8 @@ namespace ATScompanySpace
             clientInfo += "\nСписок счетов:\n";
             foreach (var invoice in Invoices)
             {
-                clientInfo += $"{invoice.InvoiceDate}: {invoice.Amount:C} - {invoice.PaidAmount}\n";
+                decimal amount = invoice.Amount - invoice.PaidAmount;
+                clientInfo += $"{invoice.InvoiceDate}: {amount:C}\n";
             }
 
             return clientInfo;

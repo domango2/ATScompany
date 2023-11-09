@@ -32,7 +32,7 @@
         <Button x:Name="myInvoices" Grid.Column="0" Grid.Row="1" Content="Выставленные счета" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" Width="190" Click="Button_Click"/>
         <Button x:Name="payInvoices" Grid.Column="0" Grid.Row="2" Content="Оплатить счета" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" Width="190" Click="Button_Click"/>
         <Button x:Name="makeDeposit" Grid.Column="0" Grid.Row="3" Content="Пополнить счет" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" Width="190" Click="Button_Click"/>
-        <Button x:Name="makeCall" Grid.Column="0" Grid.Row="4" Content="Сделать звонок" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" Width="190" Click="Button_Click"/>
+        <Button x:Name="makeCall" Grid.Column="0" Grid.Row="4" Content="Добавить звонок" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" Width="190" Click="Button_Click"/>
         <Button x:Name="logout" Grid.Column="0" Grid.Row="5" Content="Выйти из аккаунта" Click="LogoutButton_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Width="190" Margin="0,0,0,0" />
 
 

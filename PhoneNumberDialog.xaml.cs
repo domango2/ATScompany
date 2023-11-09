@@ -19,6 +19,13 @@ namespace ATScompany
     /// </summary>
     public partial class PhoneNumberDialog : Window
     {
+        private void login_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Enter)
+            {
+                ConfirmButton_Click(sender, e);
+            }
+        }
         public string PhoneNumber { get; private set; }
         public PhoneNumberDialog()
         {

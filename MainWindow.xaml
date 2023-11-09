@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:ATScompanySpace"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         mc:Ignorable="d"
-        Title="ATScompany" Height="540" Width="960" Icon="/iconATS.ico"
+        Title="ATScompany" Height="565" Width="960" Icon="/iconATS.ico"
         MaxWidth="1920" MaxHeight="1080" MinWidth="960" MinHeight="540">
     <Window.Resources>
         <Style x:Key="FocusVisual">

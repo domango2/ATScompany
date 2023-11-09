@@ -5,12 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ATScompanySpace"
         mc:Ignorable="d"
-        Title="PhoneNumberDialog" Height="200" Width="400" Icon="/iconATS.ico">
+        Title="" Height="200" Width="400" Icon="/iconATS.ico">
     <Grid>
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
             <TextBlock Text="Введите номер телефона клиента:"/>
             <TextBox x:Name="PhoneNumberTextBox" Width="200" Margin="10"/>
-            <Button Content="Подтвердить" Click="ConfirmButton_Click"/>
+            <Button Content="Подтвердить" Click="ConfirmButton_Click" IsDefault="True"/>
         </StackPanel>
     </Grid>
 </Window>

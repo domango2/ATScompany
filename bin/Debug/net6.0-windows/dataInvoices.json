@@ -14,5 +14,13 @@
     "IsPaid": true,
     "PaidAmount": 0.8,
     "ClientId": "869559"
+  },
+  {
+    "InvoiceDate": "2023-11-09T21:51:28.2787656+03:00",
+    "DueDate": "2023-11-19T21:51:28.2787656+03:00",
+    "Amount": 0.426666666666667,
+    "IsPaid": false,
+    "PaidAmount": 0,
+    "ClientId": "893630"
   }
 ]

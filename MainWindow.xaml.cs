@@ -98,13 +98,13 @@ namespace ATScompanySpace
         private void RegistrationButton_Click(object sender, RoutedEventArgs e)
         {
             RegistrationWindow registrationWindow = new RegistrationWindow();
-            registrationWindow.Owner = this; // Установите главное окно владельцем окна регистрации.
-            registrationWindow.ShowDialog(); // Отобразите окно регистрации как диалог.
+            registrationWindow.Owner = this; 
+            registrationWindow.ShowDialog(); 
         }
         public MainWindow()
         {
-            InitializeComponent();
             ATScompany.Instance.LoadAll();
+            InitializeComponent();
         }
     }
 }

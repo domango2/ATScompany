@@ -6,10 +6,11 @@ using System.Text;
 using System.Net;
 using System.Text.Json;
 using System.Threading.Tasks;
+using System.ComponentModel;
 
 namespace ATScompanySpace
 {
-    public class ATScompany
+    public class ATScompany 
     {
         public static ATScompany Instance { get; } = new ATScompany();
         public List<Client> Clients { get; set; }
@@ -55,7 +56,7 @@ namespace ATScompanySpace
                 {
                     decimal callCost = callsAfterLastInvoice.Sum(call => call.Cost);
 
-                    if (callCost == (decimal)0.0) break;
+                    if (callCost == (decimal)0.0) continue;
                     Invoice invoice = new Invoice(currentDate, currentDate.AddDays(10), callCost, client.Id);
 
                     client.Invoices.Add(invoice);
@@ -149,6 +150,9 @@ namespace ATScompanySpace
 
         public void LoadAll()
         {
+            Clients.Clear();
+            Calls.Clear();
+            Invoices.Clear();
             string dataClients = "dataClients.json";
             string dataCalls = "dataCalls.json";
             string dataInvoices = "dataInvoices.json";

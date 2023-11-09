@@ -44,6 +44,7 @@ namespace ATScompanySpace
                     ClientInfo_Click(sender, e);
                     break;
                 case "Выставить счета":
+                    ATScompany.Instance.SendInvoice();
                     displayText.Text = "Счета выставлены успешно";
                     ATScompany.Instance.SaveAll();
                     break;
@@ -71,7 +72,6 @@ namespace ATScompanySpace
                 }
             }
         }
-
         private void LogoutButton_Click(object sender, RoutedEventArgs e)
         {
             MainWindow mainWindow = new MainWindow();

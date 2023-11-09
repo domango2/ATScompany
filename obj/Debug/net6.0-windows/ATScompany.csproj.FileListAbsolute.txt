@@ -23,11 +23,7 @@ D:\cods\WinFormCopy\ATScompany\ATScompany\obj\Debug\net6.0-windows\AdminPanel.g.
 D:\cods\WinFormCopy\ATScompany\ATScompany\obj\Debug\net6.0-windows\UserPanel.g.cs
 D:\cods\WinFormCopy\ATScompany\ATScompany\obj\Debug\net6.0-windows\AdminPanel.baml
 D:\cods\WinFormCopy\ATScompany\ATScompany\obj\Debug\net6.0-windows\UserPanel.baml
-D:\cods\WinFormCopy\ATScompany\ATScompany\bin\Debug\net6.0-windows\MaterialDesignColors.dll
-D:\cods\WinFormCopy\ATScompany\ATScompany\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
-D:\cods\WinFormCopy\ATScompany\ATScompany\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
 D:\cods\WinFormCopy\ATScompany\ATScompany\obj\Debug\net6.0-windows\App.baml
-D:\cods\WinFormCopy\ATScompany\ATScompany\obj\Debug\net6.0-windows\ATScompany.csproj.CopyComplete
 D:\cods\WinFormCopy\ATScompany\ATScompany\obj\Debug\net6.0-windows\PhoneNumberDialog.g.cs
 D:\cods\WinFormCopy\ATScompany\ATScompany\obj\Debug\net6.0-windows\PhoneNumberDialog.baml
 D:\cods\WinFormCopy\ATScompany\ATScompany\obj\Debug\net6.0-windows\CallDialog.baml
@@ -36,3 +32,4 @@ D:\cods\WinFormCopy\ATScompany\ATScompany\obj\Debug\net6.0-windows\Payment.g.cs
 D:\cods\WinFormCopy\ATScompany\ATScompany\obj\Debug\net6.0-windows\Payment.baml
 D:\cods\WinFormCopy\ATScompany\ATScompany\obj\Debug\net6.0-windows\RegistrationWindow.baml
 D:\cods\WinFormCopy\ATScompany\ATScompany\obj\Debug\net6.0-windows\RegistrationWindow.g.cs
+D:\cods\WinFormCopy\ATScompany\ATScompany\obj\Debug\net6.0-windows\ATScompany.csproj.Fody.CopyLocal.cache

@@ -23,7 +23,7 @@
   {
     "CallDate": "2023-10-11T23:53:11.3926671+03:00",
     "Duration": 180,
-    "IsIncoming": true,
+    "IsIncoming": false,
     "ClientId": "869559",
     "Cost": 0.3
   }

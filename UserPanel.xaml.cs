@@ -52,7 +52,7 @@ namespace ATScompanySpace
                     displayText.Text = CurrentClient.AddOverpayment(overpayment);
                     ATScompany.Instance.SaveAll();
                     break;
-                case "Сделать звонок":
+                case "Добавить звонок":
                     MakeCallButton_Click(sender, e);
                     ATScompany.Instance.SaveAll();
                     break;
@@ -93,10 +93,13 @@ namespace ATScompanySpace
             CallDialog dialog = new CallDialog(CurrentClient);
             if (dialog.ShowDialog() == true)
             {
-                // Вывести информацию о звонке
-                displayText.Text = "Звонок создан: Дата: " + dialog.CallDatePicker.Text +
-                                    ", Продолжительность: " + dialog.CallDurationTextBox.Text +
-                                    ", Входящий: " + (dialog.IsIncomingCheckBox.IsChecked ?? false);
+                bool isIncoming = dialog.IsIncomingCheckBox.IsChecked ?? false;
+                string callType = isIncoming ? "входящий" : "исходящий";
+
+                displayText.Text = $"Звонок создан: Дата: {dialog.CallDatePicker.Text}, " +
+                                   $"\nПродолжительность: {dialog.CallDurationTextBox.Text}, " +
+                                   $"\nТип: {callType}";
+
             }
         }
     }
