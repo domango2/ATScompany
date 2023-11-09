@@ -8,12 +8,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="back.png" />
     <None Remove="iconATS.ico" />
     <None Remove="menuSpace.png" />
     <None Remove="startWindow.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="MaterialDesignThemes" Version="4.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="back.png" />
     <Resource Include="iconATS.ico" />
     <Resource Include="menuSpace.png" />
     <Resource Include="startWindow.png" />

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 D:\cods\WinFormCopy\ATScompany\ATScompany\App.xaml
-11407045341
+717110621
 
-4201760815
-1941675070116
-MainWindow.xaml;
+131251180085
+197627515717
+AdminPanel.xaml;CallDialog.xaml;MainWindow.xaml;Payment.xaml;PhoneNumberDialog.xaml;RegistrationWindow.xaml;UserPanel.xaml;
 
 False
 

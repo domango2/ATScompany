@@ -1,0 +1,16 @@
+﻿<Window x:Class="ATScompanySpace.CallDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Сделать звонок" Height="400" Width="400" Icon="/iconATS.ico">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Text="Дата звонка:"/>
+            <DatePicker x:Name="CallDatePicker" Width="200" Margin="10"/>
+            <TextBlock Text="Продолжительность звонка (в секундах):"/>
+            <TextBox x:Name="CallDurationTextBox" Width="200" Margin="10"/>
+            <TextBlock Text="Входящий звонок?"/>
+            <CheckBox x:Name="IsIncomingCheckBox" HorizontalAlignment="Left"/>
+            <Button Content="Сделать звонок" Click="MakeCallButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

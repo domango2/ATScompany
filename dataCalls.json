@@ -1,0 +1,30 @@
+[
+  {
+    "CallDate": "2023-10-11T23:53:11.392189+03:00",
+    "Duration": 300,
+    "IsIncoming": false,
+    "ClientId": "396434",
+    "Cost": 0.5
+  },
+  {
+    "CallDate": "2023-10-11T23:53:11.3926713+03:00",
+    "Duration": 180,
+    "IsIncoming": false,
+    "ClientId": "396434",
+    "Cost": 0.3
+  },
+  {
+    "CallDate": "2023-10-11T23:53:11.3926671+03:00",
+    "Duration": 180,
+    "IsIncoming": true,
+    "ClientId": "894022",
+    "Cost": 0.0
+  },
+  {
+    "CallDate": "2023-10-11T23:53:11.3926671+03:00",
+    "Duration": 180,
+    "IsIncoming": true,
+    "ClientId": "869559",
+    "Cost": 0.3
+  }
+]

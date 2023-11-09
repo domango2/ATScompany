@@ -1,0 +1,74 @@
+[
+  {
+    "PhoneNumber": "8-0152-396434",
+    "LastInvoiceDate": "2023-10-11T23:53:11.3932518+03:00",
+    "Login": "8-0152-396434",
+    "Password": "4231",
+    "Id": "396434",
+    "Name": "\u0421\u0435\u0440\u0433\u0435\u0439",
+    "Address": "\u0423\u043B.\u041F\u0443\u0448\u043A\u0438\u043D\u0430 11",
+    "BirthDate": "1990-05-15T00:00:00",
+    "Debt": 0.3,
+    "Overpayment": 0
+  },
+  {
+    "PhoneNumber": "8-0152-894022",
+    "LastInvoiceDate": "2023-10-10T00:00:00+03:00",
+    "Login": "8-0152-894022",
+    "Password": "1234",
+    "Id": "894022",
+    "Name": "\u0413\u0435\u043E\u0440\u0433\u0438\u0439",
+    "Address": "\u0423\u043B.\u041E\u0436\u0435\u0448\u043A\u043E 25",
+    "BirthDate": "1985-08-20T00:00:00",
+    "Debt": 0,
+    "Overpayment": 0
+  },
+  {
+    "PhoneNumber": "8-0152-837709",
+    "LastInvoiceDate": "2023-10-10T00:00:00+03:00",
+    "Login": "8-0152-837709",
+    "Password": "2341",
+    "Id": "837709",
+    "Name": "\u041F\u0430\u0448\u0430",
+    "Address": "\u0443\u043B. \u0414\u0443\u0431\u043A\u043E 20 ",
+    "BirthDate": "1983-08-20T00:00:00",
+    "Debt": 0,
+    "Overpayment": 0
+  },
+  {
+    "PhoneNumber": "8-0152-869448",
+    "LastInvoiceDate": "2023-10-11T00:00:00+03:00",
+    "Login": "8-0152-869448",
+    "Password": "3412",
+    "Id": "869448",
+    "Name": "\u0414\u0430\u043D\u0438\u0438\u043B",
+    "Address": "\u0423\u043B.\u041B\u0435\u0440\u043C\u0430\u043D\u0442\u043E\u0432\u0430 16",
+    "BirthDate": "2023-10-05T00:00:00",
+    "Debt": 0,
+    "Overpayment": 0
+  },
+  {
+    "PhoneNumber": "8-0152-869559",
+    "LastInvoiceDate": "2023-10-16T00:00:00+03:00",
+    "Login": "8-0152-869559",
+    "Password": "4123",
+    "Id": "869559",
+    "Name": "\u0414\u0430\u043C\u0438\u0442\u0440\u0438\u0439",
+    "Address": "\u0423\u043B.\u041B\u0438\u043C\u043E\u0436\u0430 9",
+    "BirthDate": "2023-10-05T00:00:00",
+    "Debt": 0,
+    "Overpayment": 0
+  },
+  {
+    "PhoneNumber": "8-0152-893630",
+    "LastInvoiceDate": "2023-10-19T00:00:00+03:00",
+    "Login": "8-0152-893630",
+    "Password": "4321",
+    "Id": "893630",
+    "Name": "Chelovek",
+    "Address": "ul. Dubko",
+    "BirthDate": "2023-10-20T08:44:02.3657069+03:00",
+    "Debt": 0,
+    "Overpayment": 0
+  }
+]

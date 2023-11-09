@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "okklMwTdz1rWgmXn/ZckJgJfkuIxxyplPd3n0VWbEQeV3ZNsYR26kdgrr+iCDahxitIXcK+LPJfzM8d2/TffyQ==",
+  "dgSpecHash": "wDi8AQZf3lrs8KzZirXwhOsl0aPOgEXlXzQH4JtBgypdBNtSRX+rbVgxIgy/GfHHfDLNrMFCqN8vtncsRAl+VA==",
   "success": true,
   "projectFilePath": "D:\\cods\\WinFormCopy\\ATScompany\\ATScompany\\ATScompany.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\dimad\\.nuget\\packages\\materialdesigncolors\\2.1.4\\materialdesigncolors.2.1.4.nupkg.sha512",
+    "C:\\Users\\dimad\\.nuget\\packages\\materialdesignthemes\\4.9.0\\materialdesignthemes.4.9.0.nupkg.sha512",
+    "C:\\Users\\dimad\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512"
+  ],
   "logs": []
 }

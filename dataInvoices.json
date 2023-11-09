@@ -1,0 +1,18 @@
+[
+  {
+    "InvoiceDate": "2023-10-11T23:53:11.3932518+03:00",
+    "DueDate": "2023-10-21T23:53:11.3932518+03:00",
+    "Amount": 0.8,
+    "IsPaid": false,
+    "PaidAmount": 0.5,
+    "ClientId": "396434"
+  },
+  {
+    "InvoiceDate": "2023-10-11T23:53:11.3932518+03:00",
+    "DueDate": "2023-10-21T23:53:11.3932518+03:00",
+    "Amount": 0.8,
+    "IsPaid": true,
+    "PaidAmount": 0.8,
+    "ClientId": "869559"
+  }
+]
