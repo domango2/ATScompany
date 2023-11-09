@@ -61,7 +61,7 @@ namespace ATScompany {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ATScompany;component/payment.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ATScompany;V1.0.0.0;component/payment.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Payment.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

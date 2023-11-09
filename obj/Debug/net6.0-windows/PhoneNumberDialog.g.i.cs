@@ -61,7 +61,7 @@ namespace ATScompany {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ATScompany;component/phonenumberdialog.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ATScompany;V1.0.0.0;component/phonenumberdialog.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\PhoneNumberDialog.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
